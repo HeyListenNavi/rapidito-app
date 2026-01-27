@@ -23,7 +23,7 @@
     @livewireStyles
 </head>
 
-<body class="flex h-screen flex-col overflow-hidden bg-gray-200 font-sans text-gray-800">
+<body class="flex h-screen flex-col overflow-hidden bg-gray-100 font-sans text-gray-800">
     <livewire:header.bar />
 
     <main class="no-scrollbar relative flex-1 overflow-y-auto pb-32">
