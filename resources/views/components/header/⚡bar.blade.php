@@ -22,7 +22,7 @@ new class extends Component {
         </div>
     </div>
 
-    <div class="relative flex items-center justify-center rounded-2xl bg-red-50 p-3 text-2xl text-red-400 hover:text-red-300 hover:bg-red-50/80 hover:scale-90 transition-all">
+    <div class="relative flex items-center justify-center rounded-2xl bg-red-50 p-3 text-2xl text-red-400 active:text-red-300 active:bg-red-50/80 active:scale-90 transition-all">
         <i class="bxf bx-shopping-bag-alt"></i>
         <div class="absolute -right-0.5 -top-0.5 flex size-4 items-center justify-center rounded-full bg-red-500">
             <span class="text-[10px] font-bold text-white">4</span>

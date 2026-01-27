@@ -190,7 +190,7 @@ new #[Title('Cart')] class extends Component {
     </div>
 
     <button
-        class="w-full rounded-2xl bg-red-500 px-6 py-4 font-bold text-white transition-all hover:scale-90 hover:bg-red-400">
+        class="w-full rounded-2xl bg-red-500 px-6 py-4 font-bold text-white transition-all active:scale-90 active:bg-red-400">
         Pagar Pedidos
     </button>
 </div>

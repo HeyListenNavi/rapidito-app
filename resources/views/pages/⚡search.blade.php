@@ -20,22 +20,22 @@ new #[Title('Search Product')] class extends Component {
 
         <div class="flex flex-wrap gap-4">
             <div
-                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all hover:scale-90 hover:border-red-500 hover:bg-red-50 hover:text-red-500">
+                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all active:scale-90 active:border-red-500 active:bg-red-50 active:text-red-500">
                 <i class="bxf bx-clock"></i>
                 <span>KFC</span>
             </div>
             <div
-                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all hover:scale-90 hover:border-red-500 hover:bg-red-50 hover:text-red-500">
+                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all active:scale-90 active:border-red-500 active:bg-red-50 active:text-red-500">
                 <i class="bxf bx-clock"></i>
                 <span>Pizza</span>
             </div>
             <div
-                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all hover:scale-90 hover:border-red-500 hover:bg-red-50 hover:text-red-500">
+                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all active:scale-90 active:border-red-500 active:bg-red-50 active:text-red-500">
                 <i class="bxf bx-clock"></i>
                 <span>Hamburguesas</span>
             </div>
             <div
-                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all hover:scale-90 hover:border-red-500 hover:bg-red-50 hover:text-red-500">
+                class="flex select-none items-center gap-1 rounded-xl border border-transparent bg-gray-50 px-3 py-2 text-sm font-medium text-gray-400 transition-all active:scale-90 active:border-red-500 active:bg-red-50 active:text-red-500">
                 <i class="bxf bx-clock"></i>
                 <span>Farmacia</span>
             </div>
@@ -47,22 +47,22 @@ new #[Title('Search Product')] class extends Component {
 
         <div class="grid grid-cols-2 grid-rows-2 gap-4">
             <div
-                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-orange-200 bg-orange-100 p-5 transition-transform hover:scale-90">
+                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-orange-200 bg-orange-100 p-5 transition-transform active:scale-90">
                 <span class="relative z-10 text-lg font-bold leading-tight text-orange-900">Comida<br>Rápida</span>
                 <i class="bxf bx-burger absolute -bottom-3 -right-3 text-7xl text-orange-300"></i>
             </div>
             <div
-                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-green-200 bg-green-100 p-5 transition-transform hover:scale-90">
+                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-green-200 bg-green-100 p-5 transition-transform active:scale-90">
                 <span class="relative z-10 text-lg font-bold leading-tight text-green-900">Saludable<br>& Fit</span>
                 <i class="bxf bx-carrot absolute -bottom-3 -right-3 text-7xl text-green-300"></i>
             </div>
             <div
-                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-blue-200 bg-blue-100 p-5 transition-transform hover:scale-90">
+                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-blue-200 bg-blue-100 p-5 transition-transform active:scale-90">
                 <span class="relative z-10 text-lg font-bold leading-tight text-blue-900">Bebidas<br>& Licores</span>
                 <i class="bxf bx-wine absolute -bottom-3 -right-3 text-7xl text-blue-300"></i>
             </div>
             <div
-                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-pink-200 bg-pink-100 p-5 transition-transform hover:scale-90">
+                class="rounded-4xl relative flex h-28 flex-col justify-center overflow-hidden border border-pink-200 bg-pink-100 p-5 transition-transform active:scale-90">
                 <span class="relative z-10 text-lg font-bold leading-tight text-pink-900">Postres<br>& Dulces</span>
                 <i class="bxf bx-icecream absolute -bottom-3 -right-3 text-7xl text-pink-300"></i>
             </div>
