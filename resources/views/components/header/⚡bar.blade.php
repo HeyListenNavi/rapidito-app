@@ -7,7 +7,7 @@ new class extends Component {
 };
 ?>
 
-<div class="fixed top-0 z-50 flex w-full items-center justify-between rounded-b-2xl bg-white p-4">
+<div class="flex w-full items-center justify-between rounded-b-2xl bg-white p-4">
     <div>
         <div class="flex items-center gap-1">
             <i class="bxf bx-carrot text-2xl text-red-500"></i>
