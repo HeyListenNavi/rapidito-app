@@ -31,6 +31,7 @@
     </main>
 
 
+    <livewire:nav.bar />
     @livewireScripts
 </body>
 
