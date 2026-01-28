@@ -10,7 +10,7 @@ new class extends Component {
 };
 ?>
 
-<div class="rounded-4xl overflow-hidden bg-white active:scale-90 transition-transform">
+<a href="{{ route('restaurant') }}" wire:navigate class="rounded-4xl overflow-hidden bg-white active:scale-90 transition-transform">
     <div class="h-46 relative flex w-full items-center justify-center bg-gray-300">
         <span>Imagen del Restaurante</span>
         <div class="absolute right-4 top-4 flex items-center gap-1 rounded-xl bg-white/80 px-2 py-1 text-xs font-bold">
@@ -29,4 +29,4 @@ new class extends Component {
         </div>
         <span class="self-start rounded-xl bg-gray-100 px-2 py-1 text-xs font-medium text-gray-500">{{ $type }}</span>
     </div>
-</div>
+</a>
