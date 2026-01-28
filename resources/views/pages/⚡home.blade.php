@@ -64,18 +64,23 @@ new #[Title('Home')] class extends Component {
         <h2 class="font-bold">Restaurantes cerca</h2>
 
         <div class="flex flex-col gap-4">
-            <livewire:restaurant.card name="El Tizoncito" type="Tacos" :stars="3.5" time="35-40min" />
+            <livewire:restaurant.card name="El Tizoncito" type="Tacos" :stars="3.5" time="35-40min"
+                image="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=500&q=80" />
 
-            <livewire:restaurant.card name="Burger Lab" type="Hamburguesas" :stars="4.2" time="25-30min" />
+            <livewire:restaurant.card name="Burger Lab" type="Hamburguesas" :stars="4.2" time="25-30min"
+                image="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80" />
 
-            <livewire:restaurant.card name="Sushi Itto" type="Sushi" :stars="4.0" time="40-50min" />
+            <livewire:restaurant.card name="Sushi Itto" type="Sushi" :stars="4.0" time="40-50min"
+                image="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=500&q=80" />
 
-            <livewire:restaurant.card name="La Casa del Pollo" type="Pollo" :stars="3.8" time="30-35min" />
+            <livewire:restaurant.card name="La Casa del Pollo" type="Pollo" :stars="3.8" time="30-35min"
+                image="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=500&q=80" />
 
-            <livewire:restaurant.card name="Green Bowl" type="Saludable" :stars="4.5" time="20-25min" />
+            <livewire:restaurant.card name="Green Bowl" type="Saludable" :stars="4.5" time="20-25min"
+                image="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80" />
 
-            <livewire:restaurant.card name="Dulce Antojo" type="Postres" :stars="4.7" time="15-20min" />
-
+            <livewire:restaurant.card name="Dulce Antojo" type="Postres" :stars="4.7" time="15-20min"
+                image="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=500&q=80" />
         </div>
     </div>
 

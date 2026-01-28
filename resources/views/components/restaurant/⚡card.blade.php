@@ -7,12 +7,14 @@ new class extends Component {
     public float $stars;
     public string $type;
     public string $time;
+    public string $image;
 };
 ?>
 
-<a href="{{ route('restaurant') }}" wire:navigate class="rounded-4xl overflow-hidden bg-white active:scale-90 transition-transform">
-    <div class="h-46 relative flex w-full items-center justify-center bg-gray-300">
-        <span>Imagen del Restaurante</span>
+<a href="{{ route('restaurant') }}" wire:navigate
+    class="rounded-4xl overflow-hidden bg-white transition-transform active:scale-90">
+    <div class="relative flex w-full items-center justify-center">
+        <img class="h-46 w-full object-cover object-center" src="{{ $image }}"/>
         <div class="absolute right-4 top-4 flex items-center gap-1 rounded-xl bg-white/80 px-2 py-1 text-xs font-bold">
             <i class="bxf bx-clock text-red-400"></i>
             <span>{{ $time }}</span>
@@ -27,6 +29,7 @@ new class extends Component {
                 <i class="bxf bx-star"></i>
             </div>
         </div>
-        <span class="self-start rounded-xl bg-gray-100 px-2 py-1 text-xs font-medium text-gray-500">{{ $type }}</span>
+        <span
+            class="self-start rounded-xl bg-gray-100 px-2 py-1 text-xs font-medium text-gray-500">{{ $type }}</span>
     </div>
 </a>
