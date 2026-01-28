@@ -189,8 +189,9 @@ new #[Title('Cart')] class extends Component {
         <p class="mt-2 text-center text-[10px] text-gray-400">Incluye impuestos y tarifas de la plataforma.</p>
     </div>
 
-    <button
+    <a
+        href="{{ route('checkout') }}" wire:navigate
         class="w-full rounded-2xl bg-red-500 px-6 py-4 font-bold text-white transition-all active:scale-90 active:bg-red-400">
         Pagar Pedidos
-    </button>
+    </a>
 </div>
