@@ -14,7 +14,7 @@ new #[Title('Restaurant')] class extends Component {
         <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=1000&auto=format&fit=crop"
             class="h-full w-full object-cover">
 
-        <div class="bg-linear-to-t absolute bottom-0 left-0 right-0 h-24 from-white to-transparent"></div>
+        <div class="bg-linear-to-t absolute bottom-0 left-0 right-0 h-32 from-gray-100 to-transparent"></div>
 
         <div class="absolute -bottom-16 left-0 right-0 px-5">
             <div
